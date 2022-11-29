@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM_Suite_TestNG">
+
+	<test name="OrangeHRM_Test_AdminValidData">
+		<parameter name="uid" value="admin"></parameter>
+		<parameter name="pwd" value="Qedge123!@#"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.AdminLoginValidData"></class>
+		</classes>
+	</test>
+
+	<test name="OrangeHRM_Test_AdminInValidData">
+		<parameter name="uid" value="admin123"></parameter>
+		<parameter name="pwd" value="admin"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.AdminLoginInValidData_TC"></class>
+		</classes>
+	</test>
+	<test name="OrangeHRM_Test_Employee_Wibndow_Data">
+		<parameter name="Empuid" value="abdul123"></parameter>
+		<parameter name="Emppwd" value="Tata@182021"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.CheckEmpLogin_TC"></class>
+		</classes>
+	</test>
+	<test name="OrangeHRM_Test_Employee_Registration">
+		<parameter name="uid" value="admin"></parameter>
+		<parameter name="pwd" value="Qedge123!@#"></parameter>
+		<parameter name="empname" value="Dlppp"></parameter>
+		<parameter name="emplname" value="Gnji"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.EmployeeReg_TC"></class>
+		</classes>
+	</test>
+	<test name="OrangeHRM_Test_User_Registration">
+		<parameter name="uid" value="admin"></parameter>
+		<parameter name="pwd" value="Qedge123!@#"></parameter>
+		<parameter name="empfullname" value="Dlppp Gnji"></parameter>
+		<parameter name="username" value="Dlppp Demo"></parameter>
+		<parameter name="password" value="Tata@182021"></parameter>
+		<classes>
+			<class name="com.OrangeHRM.TestCases.UserRegistration"></class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM_Suite_TestNG" duration-ms="60320" started-at="2022-11-29T06:42:28 IST" finished-at="2022-11-29T06:43:28 IST">
+    <groups>
+    </groups>
+    <test name="OrangeHRM_Test_AdminValidData" duration-ms="12610" started-at="2022-11-29T06:42:28 IST" finished-at="2022-11-29T06:42:40 IST">
+      <class name="com.OrangeHRM.TestCases.AdminLoginValidData">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginValidData@536aaa8d]" name="LunchApplication" is-config="true" duration-ms="7445" started-at="2022-11-29T06:42:28 IST" finished-at="2022-11-29T06:42:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="AdminLogin(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginValidData@536aaa8d]" name="AdminLogin" duration-ms="4541" started-at="2022-11-29T06:42:35 IST" finished-at="2022-11-29T06:42:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginValidData@536aaa8d]" name="CloseApplication" is-config="true" duration-ms="545" started-at="2022-11-29T06:42:40 IST" finished-at="2022-11-29T06:42:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.OrangeHRM.TestCases.AdminLoginValidData -->
+    </test> <!-- OrangeHRM_Test_AdminValidData -->
+    <test name="OrangeHRM_Test_AdminInValidData" duration-ms="7347" started-at="2022-11-29T06:42:40 IST" finished-at="2022-11-29T06:42:48 IST">
+      <class name="com.OrangeHRM.TestCases.AdminLoginInValidData_TC">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginInValidData_TC@3e57cd70]" name="LunchApplication" is-config="true" duration-ms="5185" started-at="2022-11-29T06:42:40 IST" finished-at="2022-11-29T06:42:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="checkAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginInValidData_TC@3e57cd70]" name="checkAdminLogin" duration-ms="1545" started-at="2022-11-29T06:42:46 IST" finished-at="2022-11-29T06:42:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.OrangeHRM.TestCases.AdminLoginInValidData_TC@3e57cd70]" name="CloseApplication" is-config="true" duration-ms="601" started-at="2022-11-29T06:42:47 IST" finished-at="2022-11-29T06:42:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.OrangeHRM.TestCases.AdminLoginInValidData_TC -->
+    </test> <!-- OrangeHRM_Test_AdminInValidData -->
+    <test name="OrangeHRM_Test_Employee_Wibndow_Data" duration-ms="8052" started-at="2022-11-29T06:42:48 IST" finished-at="2022-11-29T06:42:56 IST">
+      <class name="com.OrangeHRM.TestCases.CheckEmpLogin_TC">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:com.OrangeHRM.TestCases.CheckEmpLogin_TC@5bb21b69]" name="LunchApplication" is-config="true" duration-ms="5406" started-at="2022-11-29T06:42:48 IST" finished-at="2022-11-29T06:42:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="checkEmpModule(java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.CheckEmpLogin_TC@5bb21b69]" name="checkEmpModule" duration-ms="2162" started-at="2022-11-29T06:42:53 IST" finished-at="2022-11-29T06:42:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdul123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tata@182021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpModule -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.OrangeHRM.TestCases.CheckEmpLogin_TC@5bb21b69]" name="CloseApplication" is-config="true" duration-ms="484" started-at="2022-11-29T06:42:55 IST" finished-at="2022-11-29T06:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.OrangeHRM.TestCases.CheckEmpLogin_TC -->
+    </test> <!-- OrangeHRM_Test_Employee_Wibndow_Data -->
+    <test name="OrangeHRM_Test_Employee_Registration" duration-ms="14568" started-at="2022-11-29T06:42:56 IST" finished-at="2022-11-29T06:43:10 IST">
+      <class name="com.OrangeHRM.TestCases.EmployeeReg_TC">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:com.OrangeHRM.TestCases.EmployeeReg_TC@26a7b76d]" name="LunchApplication" is-config="true" duration-ms="4760" started-at="2022-11-29T06:42:56 IST" finished-at="2022-11-29T06:43:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="EmpRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.EmployeeReg_TC@26a7b76d]" name="EmpRegistration" duration-ms="9311" started-at="2022-11-29T06:43:01 IST" finished-at="2022-11-29T06:43:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dlppp]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gnji]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpRegistration -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.OrangeHRM.TestCases.EmployeeReg_TC@26a7b76d]" name="CloseApplication" is-config="true" duration-ms="497" started-at="2022-11-29T06:43:10 IST" finished-at="2022-11-29T06:43:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.OrangeHRM.TestCases.EmployeeReg_TC -->
+    </test> <!-- OrangeHRM_Test_Employee_Registration -->
+    <test name="OrangeHRM_Test_User_Registration" duration-ms="17703" started-at="2022-11-29T06:43:10 IST" finished-at="2022-11-29T06:43:28 IST">
+      <class name="com.OrangeHRM.TestCases.UserRegistration">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:com.OrangeHRM.TestCases.UserRegistration@60285225]" name="LunchApplication" is-config="true" duration-ms="4806" started-at="2022-11-29T06:43:10 IST" finished-at="2022-11-29T06:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="userRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.UserRegistration@60285225]" name="userRegistration" duration-ms="12398" started-at="2022-11-29T06:43:15 IST" finished-at="2022-11-29T06:43:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dlppp Gnji]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dlppp Demo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tata@182021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:com.OrangeHRM.TestCases.UserRegistration@60285225]" name="CloseApplication" is-config="true" duration-ms="499" started-at="2022-11-29T06:43:28 IST" finished-at="2022-11-29T06:43:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- com.OrangeHRM.TestCases.UserRegistration -->
+    </test> <!-- OrangeHRM_Test_User_Registration -->
+  </suite> <!-- OrangeHRM_Suite_TestNG -->
+</testng-results>
